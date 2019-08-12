@@ -7,14 +7,14 @@ const results = [];
 //this variable populated with the parsed CSV file, each violation category is unique key
 const violationCategory = {};
 
-//this variable holds number of violations per category
+//this var. holds number of violations per category
 const numberOfViolations = {};
 
 //holds earliest/latest reccords
 //first index is earliest, 2nd index is latest
 const dateRecords = {};
 
-//this varibale holds the desired results
+//this varibale holds the desired final results
 const finalResult = {};
 
 fs.createReadStream("C4C-dev-challenge-2018.csv")
